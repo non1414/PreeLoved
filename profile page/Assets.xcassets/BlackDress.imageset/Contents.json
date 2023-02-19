@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Millanova_3_11c6cb51-a3c5-4f3d-9d5a-8c3d3e6ed7e5_900x 1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        ZStack {
+            Image("drees")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(11)
+             
+            Rectangle()
+                .foregroundColor(.clear)
+                .background(LinearGradient(gradient: Gradient(colors: [.clear, .black]), startPoint: .top, endPoint: .bottom))
+                                           }
+        .frame(width: 168, height: 245)
+        .padding(.leading,17)
+        
     }
+    
 }
-
+  
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
